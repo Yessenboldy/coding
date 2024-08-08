@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    margin:0 auto;
+    height: 100%;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 43px;
+    color: black;
+    background: white;
+}
+.header{
+    width: 100%;
+    min-height: 900px;
+    background-image:linear-gradient(to bottom, #EDA418 47%, #FFFFFF 100%);
+}
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 70px;
+    padding-top: 75px;
+}
+.listPart{
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    color:black;
+}
+.logo{
+    display: block;
+    margin-top: 8px;
+}
+.NavigationList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    margin:auto 0;
+    padding: 0;
+    margin-left: 150px;
+    list-style: none;
+}
+.ShoppingCart{
+    display: inline-block;
+    background-color: black;
+    border: none;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+.HeaderContainer{
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+.TextList{
+    height: 450px;
+    width: 40%;
+    float: left;
+    margin-left: 100px;
+    list-style: none;
+    padding-top: 150px;
+    font-size: 16px;;
+}
+.TextList::first-line{
+    font-weight: bolder;
+    font-size: 40px;
+    display: block;
+}
+.SecondTextPart{
+    display: block;
+    margin-top: 30px;
+}
+.Order{
+    width: 140px;
+    height: 60px;
+    margin-top: 35px;
+    border-radius: 30px;
+    background: #E52626;
+    font-size: 24px;
+    color: white;
+    border: none;
+}
+.Order:hover{
+    border: black 1.5px solid;
+}
+.CatalogCorpus{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: monospace;
+} 
+.CatalogItem{
+    display: block;
+    width: 450px;
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Menu{
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    margin-top: 30px;
+}
+.Catalog{
+    flex-wrap: nowrap;
+}
+.image{
+    width: 100%;
+}
+.footer{
+   width: 100%;
+   height: 400px;
+   background-image:linear-gradient(to top, #EDA418, #FFFFFF);
+   flex-wrap: wrap;
+   display: flex;
+}
+.FooterList_1{
+    width: 95%;
+    height: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 20px;
+    gap: 120px;
+    list-style: none;
+    padding-right: 5%;
+    margin-top: 100px;
+}
+.FooterList_1_Part{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.FooterList_2{
+    height: 100px;
+    width: 20%;
+    display:flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-left: 40%;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.FooterList_2_Part{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.FooterList_images{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 60px;
+}
+.FooterButton{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background: none;
+    border: none;
+}
+.FooterButton img{
+    width: 50px;
+    height: 50px;
+}
